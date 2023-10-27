@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Electronics Price Comparison</title>
+</head>
+<body>
+    <header>
+        <h1>Electronics Price Comparison</h1>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for electronics...">
+            <button id="searchButton">Search</button>
+        </div>
+        <div class="sort-filter">
+            <select id="sortBy">
+                <option value="priceAsc">Sort by Price (Low to High)</option>
+                <option value="priceDesc">Sort by Price (High to Low)</option>
+                <option value="ratingDesc">Sort by Rating (High to Low)</option>
+            </select>
+            <input type="number" id="minPrice" placeholder="Min Price">
+            <input type="number" id="maxPrice" placeholder="Max Price">
+            <button id="filterButton">Filter</button>
+        </div>
+    </header>
+    <main>
+        <section class="filters">
+            <h2>Filters</h2>
+            <ul>
+                <li><label><input type="checkbox" id="brand1"> Brand 1</label></li>
+                <li><label><input type="checkbox" id="brand2"> Brand 2</label></li>
+                <li><label><input type="checkbox" id="brand3"> Brand 3</label></li>
+                <!-- Add more filter options as needed -->
+            </ul>
+        </section>
+        <section class="results">
+            <h2>Search Results</h2>
+            <ul id="productList">
+                <!-- Product listings go here (populated dynamically with JavaScript) -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Electronics Price Comparison</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

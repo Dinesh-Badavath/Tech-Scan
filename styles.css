@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.search {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#searchInput {
+    padding: 10px;
+}
+
+#searchButton {
+    background-color: #009688;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filters {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.results {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* Include the previous CSS styles and add the following enhancements */
+
+.search {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sort-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+/* Include previous CSS styles and add the following enhancements */
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #009688;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.search-bar {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#searchInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchButton {
+    background-color: #007d66;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.sort-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+select, input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#filterButton {
+    background-color: #007d66;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filters {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.results {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional CSS styling for filter options and search results */
+
+/* Additional styles for checkboxes and filter options */
+
+/* Add more CSS styles for filters and product listings as needed */
